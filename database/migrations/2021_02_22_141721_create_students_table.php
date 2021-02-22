@@ -17,7 +17,7 @@ class CreateStudentsTable extends Migration
             $table->id();
             $table->string('nome', 30);
             $table->string('cognome', 50);
-            $table->int('classe');
+            $table->integer('classe');
             $table->timestamps();
         });
     }

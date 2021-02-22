@@ -1,7 +1,7 @@
 <?php
 
+use App\Student;
 use Illuminate\Database\Seeder;
-use app\Student;
 
 class StudentSeeder extends Seeder
 {
